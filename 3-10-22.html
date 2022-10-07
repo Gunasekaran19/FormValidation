@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<style>
+</style>
+<body>
+    <div id="alignCenter">
+    <h3>Enter Your Details here</h3>
+    <form  name="form1" id='form' action="#" class="form-login">
+        <label for="txtfname">First name:</label><br>
+        <input type="text" id="txtfname" name="fname" placeholder="Fname"  onchange="validateinputfeild(txtfname.value)"><br><br>
+        <label for="txtlname">Last name:</label><br>
+        <input type="text" id="txtlname" placeholder="Lname" name="lname" ><br><br>
+        <label for="txtEmail">Email:</label><br>
+        <input type="text" placeholder="Email" id="txtEmail" name="Email"><br><br>
+        <label for="txtphone">Phone</label><br>
+        <input type="text" placeholder="Phone" id="txtphone" name="Phone"><br><br>
+        <input type="submit" name="submit" required
+         onclick="formsubmit(txtfname.value,txtlname.value,txtEmail.value,txtphone.value)">
+        <br>
+        <br/>
+    </div>
+    <script src="3-10-22.js"></script>
+</body>
+
+
+
