@@ -3,16 +3,6 @@
 
 
 
-function validateinputfeild(Valuee){
-    if(Valuee==="")
-    {
-        alert('please enter the Required feild');
-    }
-    else{
-        console.log(Valuee);
-    }
-}
-
 
 function formsubmit(fname,lname,email,phone){
 
